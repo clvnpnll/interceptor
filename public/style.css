@@ -1,0 +1,12 @@
+body {
+  margin-top: 72px;
+}
+
+.payload {
+  font-family: consolas;
+  font-size: 13px;
+}
+
+.req-label {
+  font-size: 14px;
+}
