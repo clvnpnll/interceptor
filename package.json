@@ -1,0 +1,30 @@
+{
+  "name": "interceptor",
+  "version": "1.0.0",
+  "description": "interceptor",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "socket.io": "^2.2.0",
+    "ssh2": "^0.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clvnpnll/interceptor.git"
+  },
+  "author": "cepenilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clvnpnll/interceptor/issues"
+  },
+  "homepage": "https://github.com/clvnpnll/interceptor#readme",
+  "engines": {
+    "node": "8.x"
+  }
+}

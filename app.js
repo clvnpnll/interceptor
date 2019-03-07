@@ -11,7 +11,6 @@ const PORT = '22'
 const USERNAME = 'ubpchaindev'
 const PASSWORD = 'P@ssw0rd1234'
 
-const port = 4000;
 const requests = [];
 const hashes = [];
 
@@ -94,6 +93,11 @@ function emit(room, body, header, details) {
         header,
         body
     });
+}
+
+let port = process.env.PORT;
+if (port == null || port == "") {
+    port = 8000;
 }
 
 let server = app.listen(port, (err) => {
