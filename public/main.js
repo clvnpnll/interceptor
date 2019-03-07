@@ -1,4 +1,4 @@
-let socket = io.connect('https://concido.serveo.net');
+let socket = io.connect('https://concido.herokuapp.com');
 let counter = 0;
 
 let accr = document.getElementById('requestList');
